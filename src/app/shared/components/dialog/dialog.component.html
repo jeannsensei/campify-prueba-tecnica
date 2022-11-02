@@ -1,0 +1,10 @@
+<div class="close-icon">
+  <mat-icon
+    aria-hidden="false"
+    aria-label="Close dialog icon"
+    fontIcon="close"
+    (click)="dialog.closeAll()"
+  ></mat-icon>
+</div>
+
+<ng-container [ngTemplateOutlet]="data.template"></ng-container>
